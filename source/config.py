@@ -7,15 +7,15 @@ r = redis.Redis(
     decode_responses=True
     )
 
-sudo_id = 6213665206
-bot_user = "D_P1_2_bot"
-api_id = 10823881
-api_hash = "339886e2109eb67203ce12022b32e035"
-session = "BAClb5LHg5JEvqA3mSo3UU-w9jZSrqrV9R7PdTnQ6F-3unwGhHETe2hq93gWqdqErRUn7F1Y-i9EXNPvXT0zzE-oRv6GjgBg_XmH6JfMTVBZktlravBc2yaUnMSlD0w96aEMVd029IWdJHRE73gtCNzQvlzk3Mf6X9DqGeNZbKF4gp_4rxtnpkZpTn1g9XAiU_ZSQmknFXFjiaQ7oISKqaPPN6kXvleQnIj1qFUHrw6j7GDvW7hHlh1-vjnBYe_uhGkbJpWEOkBBZ99re5f0YjmN3CDpgQYKLWhwomhPtiGdIUGIgxZ90Nfu8pD7bzXlwH-i8_NjW6XLquGNVhLsh4-NAAAAAXJdAbYA"
-token = "6247911571:AAE5BigKpsEb26VLCi19M3V-nWg_L5NQY4Y"
-sudo_command = [1099460779, 1001132193]
-pm = "6213665206"
-mention = "6213665206"
+sudo_id = 1488114134
+bot_user = "fza0bot"
+api_id = 8897410
+api_hash = "43cb89a7b70782868b77ace21c1341a9"
+session = "1ApWapzMBu6eywcUeW2cRlqoeL08-cNfLt27FECbb7iUeyKFzsLLXDZX5z-A1AVaSZX_pq1G7q_CMN_vlWdk496MdgKxh4NfRGuwGsYwzy0HzWb9GSMB8Z-EXu9kUyU8XXbnWPqQnDcOAembo5CEJkocT82lVVXwIcNqJktjRyefAynbAFaY69kOK9pIQ4sHkr2v1UwxPSJss0XTNeTcuASH879ZZFPYzIX_uXbaUXxPQOcP66KChsg2ICz8qV6Hup8eywu9vyySkOfEiX3ty7BjRkiPBsYwVCib6FKTLTwj1yNjaG_9FzQXROOn3793Q0Br4c1O_lF5zu63a5N7rvDuHf5Z4ImY="
+token = "6243993552:AAF2KXc1toaLD8fX0SrbsquQss6n4waVpwE"
+sudo_command = [1488114134, 1488114134]
+pm = "1488114134"
+mention = "1488114134"
 plugins = dict(root="plugins")
-app = Client("user:D_P1_2_bot",api_id , api_hash ,in_memory=True,session_string = session,plugins=plugins)
-bot = Client("D_P1_2_bot",api_id=api_id , api_hash=api_hash ,bot_token=token,plugins=dict(root="plug_bot"))
+app = Client("user:fza0bot",api_id , api_hash ,in_memory=True,session_string = session,plugins=plugins)
+bot = Client("fza0bot",api_id=api_id , api_hash=api_hash ,bot_token=token,plugins=dict(root="plug_bot"))
